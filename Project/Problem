@@ -1,0 +1,22 @@
+Soccer League Database
+
+A Soccer league system needs to manage the following information:
+
+- The Soccer league has a lot of scoccer teams.
+- Each scoccer team has information about club name, shorthand, stadium.
+- For a specific period of time, each team manage a coach. 
+The contract between the coach and the team has information about salary, starting date, ending date.
+For each coach, we know first name, last name, age and country.
+After the contract is expired, this team can hire another coach, the coach can move to another team
+- For a specific period of time, some players play for a specific team.
+The contract between the player and the team has information about salary, starting date, ending date.
+For each player, we know first name, last name, age, position, kit and country.
+After the contract is expired, the player can move to another team.
+- Each team has a home ground. We know the name and capacity of stadiums.
+Each Stadium can be home ground of many teams. 
+- There are lots of matches among these teams. Each match, we have information about starting date, number of attendances, team which play in home ground, 
+team which play in away ground, stadium and result. This result contains the information about away score, home score and the detail information of scores.
+Each score is made by a specific player, in particular time. To make goal, there may be a player assist.
+
+Our goal is to write a datebase can deal with all above information. 
+

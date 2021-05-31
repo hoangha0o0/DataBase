@@ -1,0 +1,9 @@
+<> sudo docker ps --all
+<> docker run -p 127.0.0.1:3306:3306  --name mariadb-hust -e MARIADB_ROOT_PASSWORD=123456 -d mariadb:latest
+<> sudo docker start mariadb-hust
+<> sudo docker exec -it mariadb-hust bash
+<> mysql -u root -p  mysql < mysql.sql
+<> mysqldump -u root -p mysql > mysql.sql 
+
+
+
